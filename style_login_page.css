@@ -1,0 +1,73 @@
+/* style_login_page.css  */
+
+body{
+    background: rgb(62,235,251);
+background: linear-gradient(204deg, rgba(62,235,251,1) 57%, rgba(12,245,199,1) 83%);
+}
+.main{
+    height:600px;
+    width: 450px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px 3px rgb(179, 179, 179);
+    background-color:rgb(255, 255, 255) ;
+}
+/* * {
+    box-sizing: border-box;
+  }  */
+
+#btn1{
+    background-color:rgb(29, 157, 29);
+     color:white;
+     border-radius: 3px;
+     border: 1px solid rgb(95, 95, 95);
+}
+
+.btn{
+    background-color:rgb(255, 255, 255);
+    color:black;
+    border-radius: 3px;
+    border: 1px solid rgb(95, 95, 95);
+    
+}
+
+.btn:hover{
+    background-color: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#btn1:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(29, 157, 29);
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+a {
+    color:rgb(0, 116, 54); 
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* 
+#btn2::after{
+    content: url('apple-logo.png');
+            display: inline-block;
+            border: 5px solid rgb(7, 0, 11);
+            height: 100%;
+            width: 100%;
+           position: absolute;
+           bottom:-50px;
+           right: -50px;
+            z-index: 1;
+} */
